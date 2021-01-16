@@ -6,6 +6,9 @@ public class FactTest {
 		int number = 6;
 		int result=fact(number);
 		System.out.println("Factorial is="+result);
+		System.out.println("HHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
+		
+
 
 	}
 
