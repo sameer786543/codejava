@@ -2,7 +2,19 @@ package com.fact;
 
 public class FactTest {
 	public static void main(String[] args) {
-		System.out.println("Hello");
+
+		int number = 6;
+		int result=fact(number);
+		System.out.println("Factorial is="+result);
+
 	}
 
+	 public static int fact(int num) {
+		 
+		 if(num==1||num==0)
+		 {
+			 return 1;
+		 }
+		return num * fact(num - 1);
+	}
 }
